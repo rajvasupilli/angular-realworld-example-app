@@ -34,7 +34,7 @@ pipeline {
         }
           stage('Build') {
             steps {
-               sh '''npm run 
+               sh '''
              ng build '''
             }
           }
